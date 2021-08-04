@@ -9,16 +9,20 @@ get '/hi' do
   "Hello World"
 end
 
-get '/game' do
+get '/game/1' do
   {
-      game: "Wake me Up",
-      year: "1984"
+      name: "Pacman",
   }.to_json
 end
 
-get '/game/1' do
+get '/game/2' do
   {
-      game: "Wake me Up",
-      year: "1984"
+      name: "Donkey Kong",
+  }.to_json
+end
+
+get '/game/3' do
+  {
+      name: "Space Invaders",
   }.to_json
 end
