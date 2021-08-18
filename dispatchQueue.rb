@@ -9,23 +9,24 @@ get '/hi' do
   "Hello DispatchQueue"
 end
 
-get '/game/1' do
+get '/profile/1' do
   {
       id: "1",
-      name: "Pacman",
+      name: "Kevin Flynn",
   }.to_json
 end
 
-get '/game/2' do
+get '/entitlements/1' do
   {
-      id: "2",
-      name: "Donkey Kong",
+      id: "1",
+      name: "Access to Master Control Unit",
   }.to_json
 end
 
-get '/game/3' do
+get '/preferences/1' do
   {
-      id: "3",
-      name: "Space Invaders",
+      id: "1",
+      name: "Light cycle",
   }.to_json
 end
+
