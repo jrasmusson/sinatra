@@ -6,7 +6,7 @@ before do
 end
 
 get '/hi' do
-  "Hello World"
+  "Hello arcade"
 end
 
 get '/game/1' do
