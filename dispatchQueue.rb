@@ -15,7 +15,7 @@ end
 get '/entitlement/1' do
   {
       id: "1",
-      entitlement: "Access to Master Control Unit",
+      access: "Access to Master Control Unit",
   }.to_json
 end
 
