@@ -5,12 +5,17 @@ before do
   content_type :json
 end
 
+get '/bankey/account' do
+  attachment
+  send_file 'bankey-accounts.json'
+end
+
 get '/bankey/account/1' do
   {
       id: "1",
       accountType: "Banking",
-      accountName: "Savings",
-      balance: 100.00
+      accountName: "Basic Savings",
+      balance: 929466.23
   }.to_json
 end
 
