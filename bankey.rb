@@ -6,7 +6,6 @@ before do
 end
 
 get '/bankey/account' do
-  attachment
   send_file 'bankey-accounts.json'
 end
 
