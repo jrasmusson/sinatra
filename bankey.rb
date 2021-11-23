@@ -5,8 +5,8 @@ before do
   content_type :json
 end
 
-get '/bankey/account' do
-  send_file 'bankey/bankey-accounts.json'
+get '/customer/1/accounts' do
+  send_file 'bankey/accounts-1.json'
 end
 
 get '/bankey/account/1' do
