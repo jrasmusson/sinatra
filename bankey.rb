@@ -6,7 +6,7 @@ before do
 end
 
 get '/bankey/account' do
-  send_file 'bankey-accounts.json'
+  send_file 'bankey/bankey-accounts.json'
 end
 
 get '/bankey/account/1' do
