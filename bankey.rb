@@ -10,9 +10,6 @@ get '/bankey/customer/1/accounts' do
 end
 
 get '/bankey/profile/1' do
-  {
-      id: "1",
-      name: "Kevin Flynn",
-  }.to_json
+    send_file 'bankey/profile-1.json'
 end
 
