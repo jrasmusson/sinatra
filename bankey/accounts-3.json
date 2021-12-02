@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "type": "Banking",
+    "name": "Basic Savings",
+    "amount": 111.00,
+    "createdDateTime" : "2010-06-21T15:29:32Z"
+  },
+  {
+    "id": "2",
+    "type": "Banking",
+    "name": "All-In Chequing",
+    "amount": 222.00,
+    "createdDateTime" : "2011-06-21T15:29:32Z"
+  },
+  {
+    "id": "3",
+    "type": "CreditCard",
+    "name": "Visa Avion Card",
+    "amount": 333.00,
+    "createdDateTime" : "2012-06-21T15:29:32Z"
+  },
+  {
+    "id": "4",
+    "type": "CreditCard",
+    "name": "Student Mastercard",
+    "amount": 444.00,
+    "createdDateTime" : "2013-06-21T15:29:32Z"
+  },
+  {
+    "id": "5",
+    "type": "Investment",
+    "name": "Tax-Free Saver",
+    "amount": 555.00,
+    "createdDateTime" : "2014-06-21T15:29:32Z"
+  },
+  {
+    "id": "6",
+    "type": "Investment",
+    "name": "Growth Fund",
+    "amount": 666.00,
+    "createdDateTime" : "2015-06-21T15:29:32Z"
+  },
+ ]
