@@ -1,0 +1,27 @@
+[
+    {
+        "description":"Mens golf clubs",
+        "price":"$1,000",
+    },
+    {
+        "description":"Gibson L-$C 1949",
+        "price":"$2,000",
+    },
+    {
+        "description":"Xbox Series S console",
+        "price":"$100",
+    },
+    {
+        "description":"Tron Legacy DVD",
+        "price":"$20",
+    },
+    {
+        "description":"Lego Yellow Castle",
+        "price":"$60",
+    },
+    {
+        "description":"Space Invaders Arcade",
+        "price":"$300",
+    },
+
+]
