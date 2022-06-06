@@ -11,5 +11,5 @@ To push
 
 - heroku login
 - git push heroku main
-- https://git.heroku.com/fierce-retreat-36855
+- https://fierce-retreat-36855.herokuapp.com/bankey/profile/1
 
