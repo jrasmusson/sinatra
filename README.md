@@ -1,14 +1,15 @@
 # Sinatra
 
-Goto sinatra dir
+Make new dir
+ - Add json file
 
-Make changes
-
-- Update rb files
-- Add to config.ru
+Create new rb file
+Update config.ru
 
 To push
 
+- git add .
+- git commit -m 
 - heroku login
 - git push heroku main
 - https://fierce-retreat-36855.herokuapp.com/bankey/profile/1
