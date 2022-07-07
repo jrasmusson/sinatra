@@ -3,6 +3,6 @@ require './dispatchQueue'
 require './bankey'
 require './kijiji'
 require './company'
-require './posts'
+require './posts/server.rb'
 
 run Sinatra::Application
