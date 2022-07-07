@@ -1,7 +1,7 @@
 require 'sinatra'
 
 ## Model/Dataset
-## https://dev.to/alexmercedcoder/creating-a-full-crud-api-with-ruby-sinatra-15b4
+##https://dev.to/alexmercedcoder/creating-a-full-crud-api-with-ruby-sinatra-15b4
 
 posts = [{title: "First Post", body: "content of first post"}]
 
