@@ -47,7 +47,7 @@ put '/posts/:id' do
     # get the request body
     body = getBody(request)
     #update the item in question
-    posts[id][:id = body["id"]
+    posts[id][:id] = body["id"]
     posts[id][:title] = body["title"]
     posts[id][:body] = body["body"]
     #return the updated post
