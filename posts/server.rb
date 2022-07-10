@@ -3,7 +3,7 @@ require 'sinatra'
 ## Model/Dataset
 ##https://dev.to/alexmercedcoder/creating-a-full-crud-api-with-ruby-sinatra-15b4
 
-posts = [{id: "1", title: "First Post", body: "content of first post"}]
+posts = [{id: "1", title: "First Post"}]
 
 ## Custom Method for Getting Request body
 def getBody (req)
@@ -33,7 +33,7 @@ post '/posts' do
     # Pass the request into the custom getBody function
     body = getBody(request)
     # create the new post
-    new_post = {id: body["id"], title: body["title"], body: body["body"]}
+    new_post = {id: body["id"], title: body["title"]}
     # push the new post into the array
     posts.push(new_post)
     # return the new post
@@ -49,7 +49,6 @@ put '/posts/:id' do
     #update the item in question
     posts[id][:id] = body["id"]
     posts[id][:title] = body["title"]
-    posts[id][:body] = body["body"]
     #return the updated post
     return posts[id].to_json
 end
