@@ -3,7 +3,7 @@ require 'sinatra'
 ## Model/Dataset
 ##https://dev.to/alexmercedcoder/creating-a-full-crud-api-with-ruby-sinatra-15b4
 
-posts = [{id: "1", title: "First Post"}]
+posts = [{id: 1, title: "First Post"}]
 
 ## Custom Method for Getting Request body
 def getBody (req)
